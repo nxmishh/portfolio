@@ -24,15 +24,13 @@
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
 							<li><a href="#first">Projects</a></li>
+							<li><a href="#cta">Skills</a></li>
 							<li><a href="#second">Achievements</a></li>
-							<li><a href="#cta">Interest</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
-
-						<!-- Introduction -->
 							<section id="intro" class="main">
 								<div class="spotlight">
 									<div class="content">
@@ -47,80 +45,93 @@
 								</div>
 							</section>
 
-						<!-- First Section -->
 							<section id="first" class="main special">
 								<header class="major">
 									<h2>Projects</h2>
 								</header>
 								<ul class="features">
 									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<a href="https://github.com/nxmishh/sams">
+											<img src="/images/army.ico" alt="Project 1" class="icon round-icon">
+										</a>
 									</li>
 									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<a href="https://github.com/nxmishh/Smart-Waste-Management">
+											<img src="images/images.ico" alt="Project 2" class="icon round-icon">
+										</a>
 									</li>
 									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<a href="https://github.com/nxmishh/ReadingKart">
+											<img src="images/images (1).jpeg" height="190px" width="250px" alt="Project 3" class="icon round-icon">
+										</a>
 									</li>
 								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
 							</section>
 
-						<!-- Second Section -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Skills</h2>
+								</header>
+								<div class="dropdown">
+									<h3 onclick="toggleDropdown(this)">Programming</h3>
+									<div class="dropdown-content">
+										<ul>
+											<li>C++</li>
+											<li>Python</li>
+											<li>Java</li>
+											<li>Problem Solving</li>
+											<li>Data Structures</li>
+										</ul>
+									</div>
+								</div>
+								<div class="dropdown">
+									<h3 onclick="toggleDropdown(this)">Development</h3>
+									<div class="dropdown-content">
+										<ul>
+											<li>Java</li>
+											<li>Django</li>
+											<li>Node.js</li>
+											<li>MySQL</li>
+											<li>MongoDB</li>
+										</ul>
+									</div>
+								</div>
+								<div class="dropdown">
+									<h3 onclick="toggleDropdown(this)">Domain</h3>
+									<div class="dropdown-content">
+										<ul>
+											<li>OpenCV</li>
+											<li>Robotics</li>
+											<li>Web Development</li>
+										</ul>
+									</div>
+								</div>
+								<div class="dropdown">
+									<h3 onclick="toggleDropdown(this)">Tools</h3>
+									<div class="dropdown-content">
+										<ul>
+											<li>Figma</li>
+											<li>Postman</li>
+											<li>Tableau</li>
+											<li>WSL</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+							
+
 							<section id="second" class="main special">
 								<header class="major">
 									<h2>Achievements and Competitions</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
 								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
-									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu 
-									faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum 
-									pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. 
-									Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. 
-									Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan 
-									ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. 
-									Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-							</section>
-
-						<!-- Get Started -->
-							<section id="cta" class="main special">
-								<header class="major">
-									<h2>Hobbies and Interests</h2>
-									<p>I am interested in Aeromodelling,
-										Drones, OpenCV, ROS, Unix and Robotics in general.</p>
-								</header>
+								<div class="achievement">
+									<h3>Winner at BOSCH Road Safety Hackathon (BoRoSa)</h3>
+									<p>A 2-day Hackathon in which we had to design and program a system that covers all the blind spots for a 2-wheeler on a highway and helps the driver to visualize the vehicles that are close to it on the dashboard.</p>
+								</div>
+								<div class="achievement">
+									<h3>Qualified for 2nd level in eYantra Robotics Challenge (eYRC)</h3>
+									<p>The theme was Sentinal Drone. The objective was to monitor urban areas and detect suspicious activities with the help of drones.</p>
+								</div>
 							</section>
 
 					</div>
@@ -150,6 +161,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function toggleDropdown(element) {
+					var content = element.nextElementSibling;
+					if (content.style.maxHeight) {
+						content.style.maxHeight = null;
+					} else {
+						var dropdowns = document.querySelectorAll('.dropdown-content');
+						dropdowns.forEach(function (dropdown) {
+							dropdown.style.maxHeight = null;
+						});
+						content.style.maxHeight = content.scrollHeight + "px";
+					}
+				}
+			</script>
 
 	</body>
 </html>

@@ -66,6 +66,82 @@ input, select, textarea {
 	appearance: none;
 }
 
+.round-icon {
+	border-radius: 25px;
+  }
+
+  #cta {
+	background-color: #f9f9f9;
+	padding: 50px 20px;
+	text-align: center;
+}
+#cta .major h2 {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+.dropdown {
+	width: 80%;
+	margin: 10px auto;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: max-height 0.4s ease;
+}
+.dropdown h3 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 20px;
+	background-color: #e37682;
+	color: #fff;
+	cursor: pointer;
+}
+.dropdown-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.4s ease;
+}
+.dropdown-content ul {
+	list-style-type: none;
+	padding: 20px;
+	margin: 0;
+	background-color: #f1f1f1;
+}
+.dropdown-content ul li {
+	font-size: 1.1em;
+	margin: 5px 0;
+	color: #666;
+} 
+
+#second {
+	background-color: #f9f9f9;
+	padding: 50px 20px;
+	text-align: center;
+}
+#second .major h2 {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+.achievement {
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: left;
+}
+.achievement h3 {
+	font-size: 1.8em;
+	margin-bottom: 10px;
+	color: #333;
+}
+.achievement p {
+	font-size: 1em;
+	margin: 10px 0;
+	color: #666;
+}
+
 /* Basic */
 
 	@-ms-viewport {
